@@ -1,0 +1,46 @@
+# Ignore target folder from Maven builds
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Ignore Maven wrapper files except the actual wrapper JAR
+!.mvn/wrapper/maven-wrapper.jar
+
+# STS (Spring Tool Suite) specific files
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA specific files
+.idea
+*.iws
+*.iml
+*.ipr
+
+# NetBeans specific files
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code specific files
+.vscode/
+
+# Build artifacts
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
